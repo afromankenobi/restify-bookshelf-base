@@ -4,8 +4,8 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      database: 'firesport_dev',
-      user:     'firesport',
+      database: 'demo_dev',
+      user:     'demo',
       password: '123456'
     },
     pool: {
@@ -20,7 +20,7 @@ module.exports = {
   qa: {
     client: 'mysql',
     connection: process.env.DATABASE_URL || {
-      database: 'firesport_qa',
+      database: 'demo_qa',
       user:     'username',
       password: '123456'
     },
